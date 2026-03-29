@@ -5,7 +5,7 @@ const Navbar = () => {
 		<nav className="p-2 border-b border-zinc-200">
 			<div className="navbar max-w-7xl mx-auto ">
 				<div className="navbar-start">
-					<p className="text-2xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+					<p className="text-2xl font-bold bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
 						DigiTools
 					</p>
 				</div>
@@ -33,12 +33,12 @@ const Navbar = () => {
 				<div className="navbar-end gap-4">
 					<div className="indicator">
 						<ShoppingCart></ShoppingCart>
-						<span className="badge badge-xs bg-blue-600 text-white indicator-item">
+						<span className="badge badge-xs bg-indigo-600 text-white indicator-item">
 							1
 						</span>
 					</div>
 					<p>Login</p>
-					<a className="btn rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+					<a className="btn rounded-full text-white bg-linear-to-r from-indigo-600 to-purple-600">
 						Get Started
 					</a>
 				</div>

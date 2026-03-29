@@ -1,0 +1,130 @@
+[
+	{
+		"id": 1,
+		"name": "AI Writing Pro",
+		"description": "Create high-quality blog posts, ads, and marketing content using advanced AI tools.",
+		"price": 25,
+		"period": "monthly",
+		"tag": "Best Seller",
+		"tagType": "bestSeller",
+		"features": [
+			"Unlimited content generation",
+			"60+ writing templates",
+			"SEO optimization",
+			"Grammar correction"
+		],
+		"iconImage": "https://i.ibb.co.com/N6gtJGZr/writingcv.png"
+	},
+	{
+		"id": 2,
+		"name": "Design Templates Pack",
+		"description": "Access thousands of modern design templates for social media and branding.",
+		"price": 59,
+		"period": "one-time",
+		"tag": "Popular",
+		"tagType": "popular",
+		"features": [
+			"2500+ templates",
+			"Editable formats",
+			"Commercial license",
+			"Regular updates"
+		],
+		"iconImage": "https://i.ibb.co.com/Kk55Z7G/design-tool.png"
+	},
+	{
+		"id": 3,
+		"name": "Premium Stock Assets",
+		"description": "Download high-quality stock images, videos, and audio for creative projects.",
+		"price": 18,
+		"period": "monthly",
+		"tag": "New",
+		"tagType": "new",
+		"features": [
+			"15M+ assets",
+			"Royalty-free usage",
+			"No attribution required",
+			"HD & 4K quality"
+		],
+		"iconImage": "https://i.ibb.co.com/G48N5z8B/camera.png"
+	},
+	{
+		"id": 4,
+		"name": "Automation Toolkit",
+		"description": "Automate repetitive tasks and boost productivity with smart workflows.",
+		"price": 79,
+		"period": "monthly",
+		"tag": "Popular",
+		"tagType": "popular",
+		"features": [
+			"100+ automation tools",
+			"API integrations",
+			"Custom workflows",
+			"Real-time triggers"
+		],
+		"iconImage": "https://i.ibb.co.com/rGjrhjYj/operation.png"
+	},
+	{
+		"id": 5,
+		"name": "Resume Builder Pro",
+		"description": "Build professional resumes and cover letters with modern templates.",
+		"price": 20,
+		"period": "one-time",
+		"tag": "New",
+		"tagType": "new",
+		"features": [
+			"150+ templates",
+			"ATS-friendly format",
+			"Instant download",
+			"PDF export"
+		],
+		"iconImage": "https://i.ibb.co.com/Ld66zNTw/portfolio.png"
+	},
+	{
+		"id": 6,
+		"name": "Social Media Content Kit",
+		"description": "Everything you need to create engaging content for social platforms.",
+		"price": 35,
+		"period": "monthly",
+		"tag": "Best Seller",
+		"tagType": "bestSeller",
+		"features": [
+			"6000+ assets",
+			"Post scheduler",
+			"Content calendar",
+			"Analytics dashboard"
+		],
+		"iconImage": "https://i.ibb.co.com/LdWV3XPJ/social-media.png"
+	},
+	{
+		"id": 7,
+		"name": "UI Components Library",
+		"description": "Pre-built UI components to speed up your web development workflow.",
+		"price": 45,
+		"period": "yearly",
+		"tag": "Popular",
+		"tagType": "popular",
+		"features": [
+			"500+ components",
+			"React & Tailwind support",
+			"Dark mode ready",
+			"Lifetime updates"
+		],
+		"iconImage": "https://i.ibb.co.com/27vChrvc/library.png"
+	},
+	{
+		"id": 8,
+		"name": "Video Editing Suite",
+		"description": "Edit videos professionally with advanced tools and presets.",
+		"price": 12,
+		"period": "monthly",
+		"tag": "New",
+		"tagType": "new",
+		"features": [
+			"4K video editing",
+			"100+ presets",
+			"Audio enhancement",
+			"Fast rendering"
+		],
+		"iconImage": "https://i.ibb.co.com/Hp1RDXSJ/videioedit.png"
+	}
+]
