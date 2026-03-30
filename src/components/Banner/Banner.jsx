@@ -4,7 +4,7 @@ import BannerImage from "../../assets/banner.png";
 
 const Banner = () => {
 	return (
-		<header className="flex flex-col-reverse md:gap-10 text-center lg:flex-row lg:text-left justify-between items-center max-w-7xl mx-auto py-3 md:py-20">
+		<header className="flex flex-col-reverse md:gap-10 text-center lg:flex-row lg:text-left justify-between items-center max-w-7xl mx-auto py-3 mb-10 md:mb-0 md:py-20">
 			<div className="flex-1 space-y-7">
 				<div className="flex justify-center lg:justify-start">
 					<p className="badge bg-blue-200 p-4 text-indigo-600 rounded-full flex gap-2 items-center">
@@ -24,7 +24,7 @@ const Banner = () => {
 					</p>
 				</div>
 
-				<div className="flex gap-5 justify-center lg:justify-start">
+				<div className="flex gap-2 md:gap-5 justify-center lg:justify-start">
 					<button className="btn rounded-full p-6 text-white bg-indigo-600">
 						Explore Products
 					</button>
