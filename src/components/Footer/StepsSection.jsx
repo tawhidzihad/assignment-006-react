@@ -14,7 +14,7 @@ const StepsSection = () => {
 				</p>
 			</div>
 
-			<div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 px-2 lg:px-0 gap-4 lg:gap-8">
+			<div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 p-4 lg:px-0 gap-4 lg:gap-8">
 				<div className="border border-zinc-300 rounded-xl p-5 bg-white">
 					<div className="flex justify-end mb-6">
 						<span className="w-10 h-10 rounded-full bg-linear-to-r from-indigo-600 to-purple-600 flex justify-center items-center">

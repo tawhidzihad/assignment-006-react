@@ -9,7 +9,7 @@ const ProductSection = ({ productsPromise, carts, setCarts }) => {
 	return (
 		<main className="max-w-7xl mx-auto py-15 space-y-5">
 			<div className="text-center space-y-5">
-				<h2 className="text-2xl md:text-4xl font-extrabold">
+				<h2 className="text-3xl md:text-4xl font-extrabold">
 					Premium Digital Tools
 				</h2>
 				<p className="max-w-xl mx-auto text-zinc-500">
