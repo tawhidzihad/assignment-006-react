@@ -3,6 +3,7 @@ import { ToastContainer } from "react-toastify";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import StatsSection from "./components/Banner/StatsSection";
+import StepsSection from "./components/Footer/StepsSection";
 import ProductSection from "./components/Main/ProductSection";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -34,6 +35,7 @@ function App() {
 					setCarts={setCarts}
 				></ProductSection>
 			</Suspense>
+			<StepsSection></StepsSection>
 
 			<ToastContainer></ToastContainer>
 		</>
