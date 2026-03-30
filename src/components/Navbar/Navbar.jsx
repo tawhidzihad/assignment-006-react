@@ -1,6 +1,6 @@
 import { ShoppingCart } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({ carts }) => {
 	return (
 		<nav className="p-2 border-b border-zinc-200">
 			<div className="navbar max-w-7xl mx-auto ">
@@ -34,7 +34,7 @@ const Navbar = () => {
 					<div className="indicator">
 						<ShoppingCart></ShoppingCart>
 						<span className="badge badge-xs bg-indigo-600 text-white indicator-item">
-							1
+							{carts.length}
 						</span>
 					</div>
 					<p>Login</p>

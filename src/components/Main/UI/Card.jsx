@@ -1,4 +1,21 @@
-const Card = ({ product }) => {
+import { useState } from "react";
+import { toast } from "react-toastify";
+
+const Card = ({ product, carts, setCarts }) => {
+	const [selected, setSelected] = useState(false);
+
+	const handleBuyNowBtn = () => {
+		const isFound = carts.find((item) => item.id === product.id);
+		if (isFound) {
+			toast.error(`${product.name} Already In Cart!`);
+			return;
+		} else {
+			setSelected(true);
+			toast.success(`${product.name} Added To Cart`);
+			setCarts([...carts, product]);
+		}
+	};
+
 	const tagStyles = {
 		bestSeller:
 			"bg-amber-100 text-orange-700 py-2 px-3 rounded-full font-medium",
@@ -7,7 +24,6 @@ const Card = ({ product }) => {
 			"bg-indigo-100 bg-linear-to-r text-purple-600 py-2 px-3 rounded-full font-medium",
 	};
 
-	console.log(product);
 	return (
 		<div className="card border-2 border-zinc-200">
 			<div className="card-body p-5 space-y-4">
@@ -59,8 +75,11 @@ const Card = ({ product }) => {
 				</ul>
 
 				<div>
-					<button className="btn btn-primary btn-block rounded-full font-medium py-3 px-5 bg-linear-to-r from-indigo-600 to-purple-600 text-white">
-						Subscribe
+					<button
+						onClick={handleBuyNowBtn}
+						className={`${selected ? "btn btn-block rounded-full font-medium py-3 px-5 bg-green-500 text-white" : "btn btn-block rounded-full font-medium py-3 px-5 bg-linear-to-r from-indigo-600 to-purple-600 text-white"}`}
+					>
+						{selected ? "Added To Cart" : "Buy Now"}
 					</button>
 				</div>
 			</div>

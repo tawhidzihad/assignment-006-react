@@ -1,8 +1,9 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
+import { ToastContainer } from "react-toastify";
 import "./App.css";
-import ProductSection from "./components/Main/ProductSection";
 import Banner from "./components/Banner/Banner";
 import StatsSection from "./components/Banner/StatsSection";
+import ProductSection from "./components/Main/ProductSection";
 import Navbar from "./components/Navbar/Navbar";
 
 const fetchProducts = async () => {
@@ -12,12 +13,14 @@ const fetchProducts = async () => {
 
 function App() {
 	const productsPromise = fetchProducts();
+	const [carts, setCarts] = useState([]);
 
 	return (
 		<>
-			<Navbar></Navbar>
+			<Navbar carts={carts}></Navbar>
 			<Banner></Banner>
 			<StatsSection></StatsSection>
+
 			<Suspense
 				fallback={
 					<div className="flex justify-center items-center min-h-screen">
@@ -27,8 +30,12 @@ function App() {
 			>
 				<ProductSection
 					productsPromise={productsPromise}
+					carts={carts}
+					setCarts={setCarts}
 				></ProductSection>
 			</Suspense>
+
+			<ToastContainer></ToastContainer>
 		</>
 	);
 }
