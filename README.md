@@ -17,7 +17,7 @@
 # ⚙️ Technologies Used To Build DigiTools
 - JSON File (For Products Card Data)
 - JavaScript (ES6+)
-- React.js 
+- React.JS 
 - Tailwind CSS
 - DaisyUI 
 - React-Toastify (NPM Package)  
