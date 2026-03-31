@@ -3,12 +3,12 @@ import { ToastContainer } from "react-toastify";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import StatsSection from "./components/Banner/StatsSection";
+import BeforeFooterSection from "./components/Footer/BeforeFooterSection";
+import Footer from "./components/Footer/Footer";
+import PricingSection from "./components/Footer/PricingSection";
 import StepsSection from "./components/Footer/StepsSection";
 import ProductSection from "./components/Main/ProductSection";
 import Navbar from "./components/Navbar/Navbar";
-import PricingSection from "./components/Footer/PricingSection";
-import BeforeFooterSection from "./components/Footer/BeforeFooterSection";
-import Footer from "./components/Footer/Footer";
 
 const fetchProducts = async () => {
 	const res = await fetch("/data.json");
@@ -42,7 +42,7 @@ function App() {
 			<PricingSection></PricingSection>
 			<BeforeFooterSection></BeforeFooterSection>
 			<Footer></Footer>
-			
+
 			<ToastContainer></ToastContainer>
 		</>
 	);
